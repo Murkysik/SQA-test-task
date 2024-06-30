@@ -7,7 +7,7 @@ This project contains automated tests for a login page, focusing on functionalit
 1. **Install Python:** Make sure you have Python installed on your computer.
 2. **Install Selenium:** You can install it using pip: `pip install selenium`
 3. **Install ChromeDriver:** You can install it using pip: `pip install webdriver-manager`
-4. **Install pytest:** You can install it using pip: `pip install pytest
+4. **Install pytest:** You can install it using pip: `pip install pytest`
 5. **Run the tests:** Use the command `pytest -V` in your terminal
 
 ## Project Structure

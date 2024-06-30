@@ -7,25 +7,25 @@ class TestLogin:
     Tests for login functionality and security.
     """
 
-    # def test_successful_login_admin(self, driver, login_page):
-    #     """
-    #     Verify successful login 1.
-    #     """
-    #     login_page.open_login_page(TEST_URL)
-    #     login_page.enter_username("admin")
-    #     login_page.enter_password("admin")
-    #     login_page.click_login_button()
-    #     login_page.check_successful_login()
-    #
-    # def test_successful_login_jsmith(self, login_page):
-    #     """
-    #     Verify successful login 2.
-    #     """
-    #     login_page.open_login_page(TEST_URL)
-    #     login_page.enter_username("jsmith")
-    #     login_page.enter_password("demo1234")
-    #     login_page.click_login_button()
-    #     login_page.check_successful_login()
+    def test_successful_login_admin(self, driver, login_page):
+        """
+        Verify successful login 1.
+        """
+        login_page.open_login_page(TEST_URL)
+        login_page.enter_username("admin")
+        login_page.enter_password("admin")
+        login_page.click_login_button()
+        login_page.check_successful_login()
+
+    def test_successful_login_jsmith(self, login_page):
+        """
+        Verify successful login 2.
+        """
+        login_page.open_login_page(TEST_URL)
+        login_page.enter_username("jsmith")
+        login_page.enter_password("demo1234")
+        login_page.click_login_button()
+        login_page.check_successful_login()
 
     def test_unsuccessful_login_sql_injection(self, login_page):
         """
